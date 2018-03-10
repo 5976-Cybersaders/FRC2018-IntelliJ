@@ -1,0 +1,484 @@
+Position Value:1
+Received inches: 300.0
+Received inches: 5.0
+Running DeliverScaleRightCommandGroup
+PEAK OUTPUT ----------->0.5
+!!!!!!! NOMINAL ------------->0.25
+Setting allowable error to 100.0
+PEAK OUTPUT ----------->0.5
+!!!!!!! NOMINAL ------------->0.25
+Setting allowable error to 100.0
+INIT EncoderInitCommand
+Control Mode: Position
+Device ID2
+Inverted: false
+Position: -1
+Closed Loop Target: 0
+Closed Loop Error: 0
+
+INIT EncoderInitCommand
+Control Mode: Position
+Device ID4
+Inverted: false
+Position: 0
+Closed Loop Target: 0
+Closed Loop Error: 0
+
+INIT EncoderInitCommand
+Control Mode: PercentOutput
+Device ID1
+Inverted: false
+Position: 0
+
+INIT EncoderInitCommand
+Control Mode: PercentOutput
+Device ID3
+Inverted: false
+Position: 0
+
+Delay: 0.0
+INIT EncoderDriveStraightCommand
+Control Mode: Position
+Device ID2
+Inverted: false
+Position: 0
+Closed Loop Target: 0
+Closed Loop Error: 0
+
+INIT EncoderDriveStraightCommand
+Control Mode: PercentOutput
+Device ID1
+Inverted: false
+Position: 0
+
+INIT EncoderDriveStraightCommand
+Control Mode: Position
+Device ID4
+Inverted: false
+Position: 0
+Closed Loop Target: 0
+Closed Loop Error: 0
+
+INIT EncoderDriveStraightCommand
+Control Mode: PercentOutput
+Device ID3
+Inverted: false
+Position: 0
+
+Using inches 300.0 ticks ------>65189.86469044033
+Starting command drive straight inches 300.0 Ticks 65189.86469044033
+**********Right Master Inverted: true
+**********Right Slave Inverted: true
+INIT EncoderDriveStraightCommand
+Control Mode: Position
+Device ID2
+Inverted: false
+Position: 0
+Closed Loop Target: 0
+Closed Loop Error: 0
+
+INIT EncoderDriveStraightCommand
+Control Mode: Position
+Device ID4
+Inverted: true
+Position: 1
+Closed Loop Target: 0
+Closed Loop Error: 0
+
+INIT EncoderDriveStraightCommand
+Control Mode: PercentOutput
+Device ID1
+Inverted: false
+Position: 0
+
+INIT EncoderDriveStraightCommand
+Control Mode: PercentOutput
+Device ID3
+Inverted: true
+Position: 0
+
+Left Master Set: 65189.000000	Pos: .000000	CLErr: 0 Count: 0 Avg Error: 0.0 Voltage: .000000 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: .000000	CLErr: 0 Count: 0 Avg Error: 0.0 Voltage: 6.368768 Percent Output: 0.4995112414467253
+
+Crossed into allowable error zone after stable count: 0
+Crossed out of allowable error zone stable count: 1 Previous: 0.0 current: 65142.0
+Left Master Set: 65189.000000	Pos: 827.000000	CLErr: 65154 Count: 0 Avg Error: 65142.0 Voltage: 5.669453 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 821.000000	CLErr: 65130 Count: 0 Avg Error: 65142.0 Voltage: 5.494624 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 3845.000000	CLErr: 62845 Count: 0 Avg Error: 62836.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 3900.000000	CLErr: 62828 Count: 0 Avg Error: 62836.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 4496.000000	CLErr: 62845 Count: 0 Avg Error: 62836.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 4577.000000	CLErr: 62828 Count: 0 Avg Error: 62836.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 5136.000000	CLErr: 60367 Count: 0 Avg Error: 61597.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 5158.000000	CLErr: 60282 Count: 0 Avg Error: 61597.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 5670.000000	CLErr: 60367 Count: 0 Avg Error: 60324.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 5804.000000	CLErr: 60282 Count: 0 Avg Error: 60324.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 6306.000000	CLErr: 60367 Count: 0 Avg Error: 60324.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 6473.000000	CLErr: 60282 Count: 0 Avg Error: 60324.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 6970.000000	CLErr: 60367 Count: 0 Avg Error: 60324.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 7052.000000	CLErr: 60282 Count: 0 Avg Error: 60324.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 7579.000000	CLErr: 57911 Count: 0 Avg Error: 59096.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 7682.000000	CLErr: 57764 Count: 0 Avg Error: 59096.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 8205.000000	CLErr: 57911 Count: 0 Avg Error: 57837.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 8359.000000	CLErr: 57764 Count: 0 Avg Error: 57837.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 8798.000000	CLErr: 57911 Count: 0 Avg Error: 57837.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 8955.000000	CLErr: 57764 Count: 0 Avg Error: 57837.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 9421.000000	CLErr: 57911 Count: 0 Avg Error: 57837.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 9593.000000	CLErr: 57764 Count: 0 Avg Error: 57837.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 11030.000000	CLErr: 55473 Count: 0 Avg Error: 55369.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 11174.000000	CLErr: 55266 Count: 0 Avg Error: 55369.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 12528.000000	CLErr: 52923 Count: 0 Avg Error: 52812.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 12757.000000	CLErr: 52702 Count: 0 Avg Error: 52812.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 14087.000000	CLErr: 52923 Count: 0 Avg Error: 52812.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 14328.000000	CLErr: 52702 Count: 0 Avg Error: 52812.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 15701.000000	CLErr: 50437 Count: 0 Avg Error: 52812.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 15621.000000	CLErr: 50197 Count: 0 Avg Error: 52812.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 16257.000000	CLErr: 50437 Count: 0 Avg Error: 50317.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 16552.000000	CLErr: 50197 Count: 0 Avg Error: 50317.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 16914.000000	CLErr: 50437 Count: 0 Avg Error: 50317.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 17220.000000	CLErr: 50197 Count: 0 Avg Error: 50317.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 17546.000000	CLErr: 47952 Count: 0 Avg Error: 47801.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 17858.000000	CLErr: 47650 Count: 0 Avg Error: 47801.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 19134.000000	CLErr: 47952 Count: 0 Avg Error: 47801.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 19437.000000	CLErr: 47650 Count: 0 Avg Error: 47801.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 20630.000000	CLErr: 45498 Count: 0 Avg Error: 45306.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 21027.000000	CLErr: 45115 Count: 0 Avg Error: 45306.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 21892.000000	CLErr: 45498 Count: 0 Avg Error: 45306.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 22256.000000	CLErr: 45115 Count: 0 Avg Error: 45306.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 23742.000000	CLErr: 43000 Count: 0 Avg Error: 42797.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 24142.000000	CLErr: 42595 Count: 0 Avg Error: 42797.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 25333.000000	CLErr: 40515 Count: 0 Avg Error: 42797.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 25736.000000	CLErr: 40032 Count: 0 Avg Error: 42797.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 25941.000000	CLErr: 40515 Count: 0 Avg Error: 40273.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 26393.000000	CLErr: 40032 Count: 0 Avg Error: 40273.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 26486.000000	CLErr: 40515 Count: 0 Avg Error: 40273.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 27064.000000	CLErr: 40032 Count: 0 Avg Error: 40273.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 27158.000000	CLErr: 38031 Count: 0 Avg Error: 40273.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 27637.000000	CLErr: 37489 Count: 0 Avg Error: 40273.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 28092.000000	CLErr: 38031 Count: 0 Avg Error: 37760.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 28618.000000	CLErr: 37489 Count: 0 Avg Error: 37760.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 28721.000000	CLErr: 38031 Count: 0 Avg Error: 37760.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 29229.000000	CLErr: 37489 Count: 0 Avg Error: 37760.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 29382.000000	CLErr: 38031 Count: 0 Avg Error: 37760.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 29873.000000	CLErr: 37489 Count: 0 Avg Error: 37760.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 29933.000000	CLErr: 35493 Count: 0 Avg Error: 35243.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 30530.000000	CLErr: 34993 Count: 0 Avg Error: 35243.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 30533.000000	CLErr: 35493 Count: 0 Avg Error: 35243.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 31133.000000	CLErr: 34993 Count: 0 Avg Error: 35243.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 31838.000000	CLErr: 35493 Count: 0 Avg Error: 35243.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 32415.000000	CLErr: 34993 Count: 0 Avg Error: 35243.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 33359.000000	CLErr: 33051 Count: 0 Avg Error: 34022.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 34002.000000	CLErr: 32435 Count: 0 Avg Error: 34022.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 33985.000000	CLErr: 33051 Count: 0 Avg Error: 32743.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 34656.000000	CLErr: 32435 Count: 0 Avg Error: 32743.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 34581.000000	CLErr: 30608 Count: 0 Avg Error: 32743.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 35257.000000	CLErr: 29932 Count: 0 Avg Error: 32743.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 35247.000000	CLErr: 30608 Count: 0 Avg Error: 30270.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 35891.000000	CLErr: 29932 Count: 0 Avg Error: 30270.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 36819.000000	CLErr: 30608 Count: 0 Avg Error: 30270.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 37476.000000	CLErr: 29932 Count: 0 Avg Error: 30270.0 Voltage: 6.193939 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 37413.000000	CLErr: 28109 Count: 0 Avg Error: 29020.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 38112.000000	CLErr: 27393 Count: 0 Avg Error: 29020.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 38042.000000	CLErr: 28109 Count: 0 Avg Error: 27751.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 38702.000000	CLErr: 27393 Count: 0 Avg Error: 27751.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 38638.000000	CLErr: 28109 Count: 0 Avg Error: 27751.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 39369.000000	CLErr: 27393 Count: 0 Avg Error: 27751.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 39948.000000	CLErr: 25556 Count: 0 Avg Error: 25215.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 40575.000000	CLErr: 24874 Count: 0 Avg Error: 25215.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 41464.000000	CLErr: 25556 Count: 0 Avg Error: 25215.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 42163.000000	CLErr: 24874 Count: 0 Avg Error: 25215.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 42099.000000	CLErr: 23090 Count: 0 Avg Error: 25215.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 42819.000000	CLErr: 22370 Count: 0 Avg Error: 25215.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 43348.000000	CLErr: 23090 Count: 0 Avg Error: 22730.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 44053.000000	CLErr: 22370 Count: 0 Avg Error: 22730.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 44548.000000	CLErr: 20641 Count: 0 Avg Error: 22730.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 45371.000000	CLErr: 19818 Count: 0 Avg Error: 22730.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 45179.000000	CLErr: 20641 Count: 0 Avg Error: 20229.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 45959.000000	CLErr: 19818 Count: 0 Avg Error: 20229.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 46740.000000	CLErr: 20641 Count: 0 Avg Error: 20229.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 47597.000000	CLErr: 19818 Count: 0 Avg Error: 20229.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 48296.000000	CLErr: 18131 Count: 0 Avg Error: 17701.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 49148.000000	CLErr: 17271 Count: 0 Avg Error: 17701.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 49889.000000	CLErr: 15630 Count: 0 Avg Error: 16450.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 50718.000000	CLErr: 14793 Count: 0 Avg Error: 16450.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+
+Left Master Set: 65189.000000	Pos: 51376.000000	CLErr: 15630 Count: 0 Avg Error: 15211.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 52289.000000	CLErr: 14793 Count: 0 Avg Error: 15211.0 Voltage: 6.156891 Percent Output: 0.49853372434017595
+
+Left Master Set: 65189.000000	Pos: 52351.000000	CLErr: 13148 Count: 0 Avg Error: 13970.0 Voltage: 6.168964 Percent Output: 0.4995112414467253
+Right Master Set: 65189.000000	Pos: 53265.000000	CLErr: 12260 Count: 0 Avg Error: 13970.0 Voltage: 5.770577 Percent Output: 0.46725317693059626
+
+Left Master Set: 65189.000000	Pos: 52962.000000	CLErr: 13148 Count: 0 Avg Error: 12704.0 Voltage: 5.891300 Percent Output: 0.47702834799608995
+Right Master Set: 65189.000000	Pos: 53855.000000	CLErr: 12260 Count: 0 Avg Error: 12704.0 Voltage: 5.468768 Percent Output: 0.44281524926686217
+
+Left Master Set: 65189.000000	Pos: 54422.000000	CLErr: 10767 Count: 0 Avg Error: 12704.0 Voltage: 5.233138 Percent Output: 0.4203323558162268
+Right Master Set: 65189.000000	Pos: 55212.000000	CLErr: 9977 Count: 0 Avg Error: 12704.0 Voltage: 4.863148 Percent Output: 0.3890518084066471
+
+Left Master Set: 65189.000000	Pos: 54935.000000	CLErr: 10767 Count: 0 Avg Error: 10372.0 Voltage: 4.928886 Percent Output: 0.39589442815249265
+Right Master Set: 65189.000000	Pos: 55743.000000	CLErr: 9977 Count: 0 Avg Error: 10372.0 Voltage: 4.606549 Percent Output: 0.36852394916911047
+
+Left Master Set: 65189.000000	Pos: 55460.000000	CLErr: 10767 Count: 0 Avg Error: 10372.0 Voltage: 4.734164 Percent Output: 0.38025415444770283
+Right Master Set: 65189.000000	Pos: 56223.000000	CLErr: 9977 Count: 0 Avg Error: 10372.0 Voltage: 4.386608 Percent Output: 0.3509286412512219
+
+Left Master Set: 65189.000000	Pos: 55986.000000	CLErr: 10767 Count: 0 Avg Error: 10372.0 Voltage: 4.466422 Percent Output: 0.3587487781036168
+Right Master Set: 65189.000000	Pos: 56622.000000	CLErr: 9977 Count: 0 Avg Error: 10372.0 Voltage: 4.166667 Percent Output: 0.3333333333333333
+
+Left Master Set: 65189.000000	Pos: 57025.000000	CLErr: 8741 Count: 0 Avg Error: 8435.0 Voltage: 3.983382 Percent Output: 0.31867057673509286
+Right Master Set: 65189.000000	Pos: 57662.000000	CLErr: 8129 Count: 0 Avg Error: 8435.0 Voltage: 3.680352 Percent Output: 0.2932551319648094
+
+Left Master Set: 65189.000000	Pos: 58021.000000	CLErr: 7168 Count: 0 Avg Error: 8435.0 Voltage: 3.494624 Percent Output: 0.27956989247311825
+Right Master Set: 65189.000000	Pos: 58567.000000	CLErr: 6622 Count: 0 Avg Error: 8435.0 Voltage: 3.250978 Percent Output: 0.2590420332355816
+
+Left Master Set: 65189.000000	Pos: 58823.000000	CLErr: 7168 Count: 0 Avg Error: 6895.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 59338.000000	CLErr: 6622 Count: 0 Avg Error: 6895.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: 65189.000000	Pos: 59083.000000	CLErr: 7168 Count: 0 Avg Error: 6895.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 59622.000000	CLErr: 6622 Count: 0 Avg Error: 6895.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: 65189.000000	Pos: 59384.000000	CLErr: 5958 Count: 0 Avg Error: 5684.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 59934.000000	CLErr: 5411 Count: 0 Avg Error: 5684.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+
+Left Master Set: 65189.000000	Pos: 59701.000000	CLErr: 5958 Count: 0 Avg Error: 5684.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 60231.000000	CLErr: 5411 Count: 0 Avg Error: 5684.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+
+Left Master Set: 65189.000000	Pos: 60464.000000	CLErr: 4725 Count: 0 Avg Error: 5684.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 60941.000000	CLErr: 4248 Count: 0 Avg Error: 5684.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+
+Left Master Set: 65189.000000	Pos: 61154.000000	CLErr: 4725 Count: 0 Avg Error: 4486.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 61709.000000	CLErr: 4248 Count: 0 Avg Error: 4486.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+
+Left Master Set: 65189.000000	Pos: 61455.000000	CLErr: 4725 Count: 0 Avg Error: 4486.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 62025.000000	CLErr: 4248 Count: 0 Avg Error: 4486.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+
+Left Master Set: 65189.000000	Pos: 61767.000000	CLErr: 3579 Count: 0 Avg Error: 3913.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 62298.000000	CLErr: 3013 Count: 0 Avg Error: 3913.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: 65189.000000	Pos: 62079.000000	CLErr: 3579 Count: 0 Avg Error: 3296.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 62599.000000	CLErr: 3013 Count: 0 Avg Error: 3296.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: 65189.000000	Pos: 62350.000000	CLErr: 3579 Count: 0 Avg Error: 3296.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 62899.000000	CLErr: 3013 Count: 0 Avg Error: 3296.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: 65189.000000	Pos: 62636.000000	CLErr: 3579 Count: 0 Avg Error: 3296.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 63177.000000	CLErr: 3013 Count: 0 Avg Error: 3296.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: 65189.000000	Pos: 63345.000000	CLErr: 2414 Count: 0 Avg Error: 2132.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 63963.000000	CLErr: 1851 Count: 0 Avg Error: 2132.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+
+Left Master Set: 65189.000000	Pos: 64104.000000	CLErr: 1243 Count: 0 Avg Error: 2132.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 64673.000000	CLErr: 659 Count: 0 Avg Error: 2132.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: 65189.000000	Pos: 64407.000000	CLErr: 1243 Count: 0 Avg Error: 951.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 64942.000000	CLErr: 659 Count: 0 Avg Error: 951.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: 65189.000000	Pos: 64987.000000	CLErr: 1243 Count: 0 Avg Error: 951.0 Voltage: 3.115836 Percent Output: 0.24926686217008798
+Right Master Set: 65189.000000	Pos: 65269.000000	CLErr: 659 Count: 0 Avg Error: 951.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: 65189.000000	Pos: 65266.000000	CLErr: 59 Count: 0 Avg Error: 359.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 65189.000000	Pos: 65121.000000	CLErr: -5 Count: 0 Avg Error: 359.0 Voltage: .000000 Percent Output: 0.0
+
+Crossed into allowable error zone after stable count: 0
+Left Master Set: 65189.000000	Pos: 65290.000000	CLErr: 59 Count: 2 Avg Error: 32.0 Voltage: -3.090909 Percent Output: -0.24926686217008798
+Right Master Set: 65189.000000	Pos: 65128.000000	CLErr: -5 Count: 2 Avg Error: 32.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: 65189.000000	Pos: 65115.000000	CLErr: 59 Count: 4 Avg Error: 32.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 65189.000000	Pos: 65132.000000	CLErr: -5 Count: 4 Avg Error: 32.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: 65189.000000	Pos: 65128.000000	CLErr: 59 Count: 6 Avg Error: 32.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 65189.000000	Pos: 65130.000000	CLErr: -5 Count: 6 Avg Error: 32.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: 65189.000000	Pos: 65256.000000	CLErr: -26 Count: 8 Avg Error: 42.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 65189.000000	Pos: 65130.000000	CLErr: 59 Count: 8 Avg Error: 42.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: 65189.000000	Pos: 65229.000000	CLErr: -26 Count: 10 Avg Error: 42.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 65189.000000	Pos: 65130.000000	CLErr: 59 Count: 10 Avg Error: 42.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: 65189.000000	Pos: 65226.000000	CLErr: -26 Count: 12 Avg Error: 42.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 65189.000000	Pos: 65131.000000	CLErr: 59 Count: 12 Avg Error: 42.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: 65189.000000	Pos: 65247.000000	CLErr: -26 Count: 14 Avg Error: 42.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 65189.000000	Pos: 65130.000000	CLErr: 59 Count: 14 Avg Error: 42.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: 65189.000000	Pos: 65255.000000	CLErr: -65 Count: 16 Avg Error: 62.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 65189.000000	Pos: 65129.000000	CLErr: 60 Count: 16 Avg Error: 62.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: 65189.000000	Pos: 65255.000000	CLErr: -65 Count: 18 Avg Error: 62.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 65189.000000	Pos: 65129.000000	CLErr: 60 Count: 18 Avg Error: 62.0 Voltage: .000000 Percent Output: 0.0
+
+Stopping. Stable count = 20 Left: 65 Right: 60
+END EncoderDriveStraightCommand
+INIT EncoderTurnCommand
+Control Mode: Position
+Device ID2
+Inverted: false
+Position: 65254
+Closed Loop Target: 65189
+Closed Loop Error: -65
+
+INIT EncoderTurnCommand
+Control Mode: Follower
+Device ID1
+Inverted: false
+Position: 0
+
+INIT EncoderTurnCommand
+Control Mode: Position
+Device ID4
+Inverted: true
+Position: 65130
+Closed Loop Target: 65189
+Closed Loop Error: 60
+
+INIT EncoderTurnCommand
+Control Mode: Follower
+Device ID3
+Inverted: true
+Position: 0
+
+Starting command drive turn angle -90.0 ticks -4010.666666666667 Left=1 Right=0
+**********Right Master Inverted: true
+**********Right Slave Inverted: true
+INIT EncoderTurnCommand
+Control Mode: Position
+Device ID2
+Inverted: false
+Position: 65254
+Closed Loop Target: 65189
+Closed Loop Error: -65
+
+INIT EncoderTurnCommand
+Control Mode: Position
+Device ID4
+Inverted: true
+Position: 65131
+Closed Loop Target: 65189
+Closed Loop Error: 58
+
+INIT EncoderTurnCommand
+Control Mode: Follower
+Device ID1
+Inverted: false
+Position: 0
+
+INIT EncoderTurnCommand
+Control Mode: Follower
+Device ID3
+Inverted: true
+Position: 0
+
+Left Master Set: -4010.000000	Pos: 65254.000000	CLErr: -65 Count: 0 Avg Error: 0.0 Voltage: 6.318817 Percent Output: 0.4995112414467253
+Right Master Set: 4010.000000	Pos: 11.000000	CLErr: 58 Count: 0 Avg Error: 0.0 Voltage: 6.318817 Percent Output: 0.4995112414467253
+
+Crossed into allowable error zone after stable count: 0
+Left Master Set: -4010.000000	Pos: 43.000000	CLErr: -65 Count: 2 Avg Error: 61.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 365.000000	CLErr: 58 Count: 2 Avg Error: 61.0 Voltage: 3.153226 Percent Output: 0.24926686217008798
+
+Left Master Set: -4010.000000	Pos: 69.000000	CLErr: -65 Count: 4 Avg Error: 61.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 998.000000	CLErr: 58 Count: 4 Avg Error: 61.0 Voltage: 3.153226 Percent Output: 0.24926686217008798
+
+Crossed out of allowable error zone stable count: 5 Previous: 61.0 current: 2062.0
+Left Master Set: -4010.000000	Pos: 50.000000	CLErr: -4066 Count: 0 Avg Error: 2062.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 1307.000000	CLErr: 2859 Count: 0 Avg Error: 2062.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: -4010.000000	Pos: 50.000000	CLErr: -4066 Count: 0 Avg Error: 3462.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 1606.000000	CLErr: 2859 Count: 0 Avg Error: 3462.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: -4010.000000	Pos: 54.000000	CLErr: -4066 Count: 0 Avg Error: 3462.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 1882.000000	CLErr: 2859 Count: 0 Avg Error: 3462.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: -4010.000000	Pos: 55.000000	CLErr: -4066 Count: 0 Avg Error: 3462.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 2195.000000	CLErr: 2859 Count: 0 Avg Error: 3462.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: -4010.000000	Pos: 55.000000	CLErr: -4065 Count: 0 Avg Error: 3462.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 2481.000000	CLErr: 1656 Count: 0 Avg Error: 3462.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: -4010.000000	Pos: 54.000000	CLErr: -4065 Count: 0 Avg Error: 2860.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 2796.000000	CLErr: 1656 Count: 0 Avg Error: 2860.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: -4010.000000	Pos: 54.000000	CLErr: -4065 Count: 0 Avg Error: 2860.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 3103.000000	CLErr: 1656 Count: 0 Avg Error: 2860.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: -4010.000000	Pos: 55.000000	CLErr: -4065 Count: 0 Avg Error: 2860.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 3371.000000	CLErr: 1656 Count: 0 Avg Error: 2860.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: -4010.000000	Pos: 55.000000	CLErr: -4065 Count: 0 Avg Error: 2278.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 3666.000000	CLErr: 492 Count: 0 Avg Error: 2278.0 Voltage: 3.128299 Percent Output: 0.24926686217008798
+
+Left Master Set: -4010.000000	Pos: 55.000000	CLErr: -4065 Count: 0 Avg Error: 2278.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 3965.000000	CLErr: 492 Count: 0 Avg Error: 2278.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: -4010.000000	Pos: 56.000000	CLErr: -4066 Count: 0 Avg Error: 2278.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 3942.000000	CLErr: 68 Count: 0 Avg Error: 2278.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: -4010.000000	Pos: 55.000000	CLErr: -4066 Count: 0 Avg Error: 2067.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 3946.000000	CLErr: 68 Count: 0 Avg Error: 2067.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: -4010.000000	Pos: 55.000000	CLErr: -4066 Count: 0 Avg Error: 2067.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 3948.000000	CLErr: 68 Count: 0 Avg Error: 2067.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: -4010.000000	Pos: 55.000000	CLErr: -4066 Count: 0 Avg Error: 2067.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 3948.000000	CLErr: 68 Count: 0 Avg Error: 2067.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: -4010.000000	Pos: 55.000000	CLErr: -4065 Count: 0 Avg Error: 2067.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 3948.000000	CLErr: 62 Count: 0 Avg Error: 2067.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: -4010.000000	Pos: 56.000000	CLErr: -4065 Count: 0 Avg Error: 2063.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 3948.000000	CLErr: 62 Count: 0 Avg Error: 2063.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: -4010.000000	Pos: 55.000000	CLErr: -4065 Count: 0 Avg Error: 2063.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 3948.000000	CLErr: 62 Count: 0 Avg Error: 2063.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: -4010.000000	Pos: 56.000000	CLErr: -4066 Count: 0 Avg Error: 2064.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 3948.000000	CLErr: 62 Count: 0 Avg Error: 2064.0 Voltage: .000000 Percent Output: 0.0
+
+Left Master Set: -4010.000000	Pos: 56.000000	CLErr: -4066 Count: 0 Avg Error: 2064.0 Voltage: .000000 Percent Output: 0.0
+Right Master Set: 4010.000000	Pos: 3948.000000	CLErr: 62 Count: 0 Avg Error: 2064.0 Voltage: .000000 Percent Output: 0.0
+
+END EncoderTurnCommand
