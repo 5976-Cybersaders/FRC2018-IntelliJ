@@ -37,9 +37,11 @@ public class DeliverScaleCommandGroup extends CommandGroup {
     class MainCommandGroup extends CommandGroup {
         public MainCommandGroup() {
             addSequential(new DoNothingCommand(SmartDashboardMap.DELAY));
-            addSequential(new EncoderDriveStraightCommand(driveTrain, 300));
+            addSequential(new EncoderDriveStraightCommand(driveTrain, 305));
             addSequential(new EncoderTurnCommand(driveTrain, -90 * position));
-            addSequential(new EncoderDriveStraightCommand(driveTrain, 5));
+            addSequential(new EncoderDriveStraightCommand(driveTrain, 25.88));
+            //22.88 + 3 = 25.88 since there is no fence around scale
+            //3 is from the front bumper
             addSequential(new WaitForLiftRaised());
             addSequential(new ReleaseCubeCommand(grabberSubsystem, 1));
         }
@@ -47,11 +49,13 @@ public class DeliverScaleCommandGroup extends CommandGroup {
 
     class PostReleaseCommandGroup extends CommandGroup {
         public PostReleaseCommandGroup() {
-            addSequential(new EncoderDriveStraightCommand(driveTrain, -5));
+            addSequential(new EncoderDriveStraightCommand(driveTrain, -10));
             addSequential(new EncoderTurnCommand(driveTrain, -90 * position));
-            addSequential(new EncoderDriveStraightCommand(driveTrain, 100));
-            addSequential(new EncoderTurnCommand(driveTrain, 90 * position));
-            addSequential(new EncoderDriveStraightCommand(driveTrain, 50));
+            addSequential(new EncoderDriveStraightCommand(driveTrain, 165));
+            //The front of the robot should end up at the front edge of the switch
+
+//            addSequential(new EncoderTurnCommand(driveTrain, 90 * position));
+//            addSequential(new EncoderDriveStraightCommand(driveTrain, 50));
         }
     }
 

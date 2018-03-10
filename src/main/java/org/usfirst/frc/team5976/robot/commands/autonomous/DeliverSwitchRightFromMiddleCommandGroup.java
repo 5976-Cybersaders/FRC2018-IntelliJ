@@ -33,7 +33,7 @@ public class DeliverSwitchRightFromMiddleCommandGroup extends CommandGroup {
 
     class MainCommandGroup extends CommandGroup {
         public MainCommandGroup() {
-            addSequential(new EncoderDriveStraightCommand(driveTrain, 108));
+            addSequential(new EncoderDriveStraightCommand(driveTrain, 102, 5)); //TODO: Check tiemout
             addSequential(new WaitForLiftRaised());
             addSequential(new ReleaseCubeCommand(grabberSubsystem, 1));
         }

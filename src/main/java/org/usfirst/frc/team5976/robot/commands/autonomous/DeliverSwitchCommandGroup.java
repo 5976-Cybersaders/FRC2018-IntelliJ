@@ -39,10 +39,12 @@ public class DeliverSwitchCommandGroup extends CommandGroup {
     class MainCommandGroup extends CommandGroup {
         public MainCommandGroup() {
             addSequential(new DoNothingCommand(SmartDashboardMap.DELAY));
-            addSequential(new EncoderDriveStraightCommand(driveTrain, 129));
+            addSequential(new EncoderDriveStraightCommand(driveTrain, 148));
             addSequential(new EncoderTurnCommand(driveTrain, -90 * position));
             addSequential(new WaitForLiftRaised());
-            addSequential(new EncoderDriveStraightCommand(driveTrain, 5));
+            //TimeOut is here because there is a possibility of hitting the fence
+            // before driving the full distance and command will not end
+            addSequential(new EncoderDriveStraightCommand(driveTrain, 36.56, 3)); //TODO: Check tiemout value
             addSequential(new ReleaseCubeCommand(grabberSubsystem, 1));
         }
     }
@@ -51,7 +53,7 @@ public class DeliverSwitchCommandGroup extends CommandGroup {
         public PostReleaseCommandGroup() {
             addSequential(new EncoderDriveStraightCommand(driveTrain, -5));
             addSequential(new EncoderTurnCommand(driveTrain, -90 * position));
-            addSequential(new EncoderDriveStraightCommand(driveTrain, 100));
+            addSequential(new EncoderDriveStraightCommand(driveTrain, 50));
             addSequential(new EncoderTurnCommand(driveTrain, 90 * position));
             addSequential(new EncoderDriveStraightCommand(driveTrain, 50));
         }

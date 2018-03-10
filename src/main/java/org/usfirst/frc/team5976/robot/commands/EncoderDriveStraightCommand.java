@@ -8,6 +8,7 @@ import org.usfirst.frc.team5976.robot.subsystems.DriveTrain;
 public class EncoderDriveStraightCommand extends AbstractEncoderDriveCommand {
 
     private double inches;
+    private double timeOut = -1;
 
     public EncoderDriveStraightCommand(DriveTrain driveTrain, double inches) {
         super(driveTrain);
@@ -15,8 +16,14 @@ public class EncoderDriveStraightCommand extends AbstractEncoderDriveCommand {
         this.inches = inches;
     }
 
+    public EncoderDriveStraightCommand(DriveTrain driveTrain, double inches, double timeOut) {
+        this(driveTrain, inches);
+        this.timeOut = timeOut;
+    }
+
     protected void initialize() {
         super.initialize();
+        if (timeOut > 0 ) setTimeout(timeOut);
         ticks = toTicks(inches);
         System.out.println("Using inches " + inches + " ticks ------>" + ticks);
         allowableError = (int) SmartDashboardMap.ALLOWABLE_ERROR.getDouble();
@@ -57,5 +64,10 @@ public class EncoderDriveStraightCommand extends AbstractEncoderDriveCommand {
             printCounter++;
         }
 
+    }
+
+    @Override
+    protected boolean isFinished() {
+        return super.isFinished() || isTimedOut();
     }
 }
