@@ -25,4 +25,5 @@ public class RobotMap {
 
 
     public static final double TURN_DIAMETER = 23.5; //23.5 || 49
+    //TODO: Change to 49 for new robot
 }
