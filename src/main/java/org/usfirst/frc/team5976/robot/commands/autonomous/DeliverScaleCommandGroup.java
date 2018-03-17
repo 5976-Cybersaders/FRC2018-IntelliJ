@@ -39,7 +39,8 @@ public class DeliverScaleCommandGroup extends CommandGroup {
             addSequential(new DoNothingCommand(SmartDashboardMap.DELAY));
             addSequential(new EncoderDriveStraightCommand(driveTrain, 305));
             addSequential(new EncoderTurnCommand(driveTrain, -90 * position));
-            addSequential(new EncoderDriveStraightCommand(driveTrain, 25.88));
+            //WAS ORIGINALLY 25.88
+            addSequential(new EncoderDriveStraightCommand(driveTrain, 5));
             //22.88 + 3 = 25.88 since there is no fence around scale
             //3 is from the front bumper
             addSequential(new WaitForLiftRaised());

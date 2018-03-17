@@ -10,7 +10,7 @@ public class AutonomousInitializationCommandGroup extends CommandGroup {
     public AutonomousInitializationCommandGroup(Robot robot) {
         addParallel(new EncoderInitCommand(robot.getDriveTrain()));
         addParallel(new LiftTalonInitializationCommand(robot.getLiftSubsystem()));
-        addParallel(new GrabCubeCommand(robot.getGrabberSubsystem(), 2));
+        addParallel(new GrabCubeCommand(robot.getGrabberSubsystem(), 1));
         //TODO: Find how long grabber takes to grab cube at the start
     }
 }

@@ -45,7 +45,8 @@ public class DeliverSwitchCommandGroup extends CommandGroup {
             //TimeOut is here because there is a possibility of hitting the fence
             // before driving the full distance and command will not end
             //WAS ORIGINALLY 36.56
-            addSequential(new EncoderDriveStraightCommand(driveTrain, 19.1, 3)); //TODO: Check tiemout value
+            //WAS ORIGINALLY 19.1
+            addSequential(new EncoderDriveStraightCommand(driveTrain, 18, 3));//TODO: Check tiemout value
             addSequential(new ReleaseCubeCommand(grabberSubsystem, 1));
         }
     }

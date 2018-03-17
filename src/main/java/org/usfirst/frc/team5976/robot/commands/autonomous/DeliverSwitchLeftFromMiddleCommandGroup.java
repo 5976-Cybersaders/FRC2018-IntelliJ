@@ -32,10 +32,10 @@ public class DeliverSwitchLeftFromMiddleCommandGroup extends CommandGroup {
         public MainCommandGroup() {
             addSequential(new EncoderDriveStraightCommand(driveTrain, 51));
             addSequential(new EncoderTurnCommand(driveTrain, -90));
-            addSequential(new EncoderDriveStraightCommand(driveTrain, 135.44)); // was originally 154.44
+            addSequential(new EncoderDriveStraightCommand(driveTrain, 113)); // was originally 135.44
             //148.44 = center of robot to center of switch plate
             addSequential(new EncoderTurnCommand(driveTrain, 90));
-            addSequential(new EncoderDriveStraightCommand(driveTrain, 51, 3)); //TODO: Check tiemout
+            addSequential(new EncoderDriveStraightCommand(driveTrain, 50, 3)); //TODO: Check tiemout
             addSequential(new WaitForLiftRaised());
             addSequential(new ReleaseCubeCommand(grabberSubsystem, 1));
         }

@@ -54,13 +54,9 @@ public class GameData {
     }
 
     private Command getCommandLeft() {
-        if (isAllianceSwitchLeft()) {
-            return new DeliverSwitchLeftCommandGroup(robot);
-        }
-        if (isScaleLeft()) {
-            return new DeliverScaleLeftCommandGroup(robot);
-        }
-        return new CrossLineCommandGroup(robot);
+        if (isAllianceSwitchLeft()) return new DeliverSwitchLeftCommandGroup(robot);
+        if (isScaleLeft()) return new DeliverScaleLeftCommandGroup(robot);
+        return new DeliverScaleOppositeCommandGroup(Position.LEFT, robot);
     }
 
     private Command getCommandMiddle() {
@@ -70,12 +66,8 @@ public class GameData {
     }
 
     private Command getCommandRight() {
-        if (isAllianceSwitchRight()) {
-            return new DeliverSwitchRightCommandGroup(robot);
-        }
-        if (isScaleRight()) {
-            return new DeliverScaleRightCommandGroup(robot);
-        }
-        return new CrossLineCommandGroup(robot);
+        if (isAllianceSwitchRight()) return new DeliverSwitchRightCommandGroup(robot);
+        if (isScaleRight()) return new DeliverScaleRightCommandGroup(robot);
+        return new DeliverScaleOppositeCommandGroup(Position.RIGHT, robot);
     }
 }
